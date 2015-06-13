@@ -1,0 +1,48 @@
+# William Calderipe <wcalderipe@gmail.com> - EditorConfig (http://EditorConfig.org)
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*{rb,ru,rake,task}]
+indent_style = space
+indent_size = 2
+
+[Gemfile,Gemfile.lock,Rakefile]
+indent_style = space
+indent_size = 2
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
+[Vagrantfile]
+indent_style = space
+indent_size = 2
+
+[*{js,coffee}]
+indent_style = space
+indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.php]
+indent_style = space
+indent_size = 4
+
+[*{html,ctp,xml,erb}]
+indent_style = tab
+
+[*.feature]
+indent_style = tab
+
+[*{log,error}]
+indent_style = tab
